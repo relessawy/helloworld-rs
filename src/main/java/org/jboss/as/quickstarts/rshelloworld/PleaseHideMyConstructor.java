@@ -1,5 +1,5 @@
 package org.jboss.as.quickstarts.rshelloworld;
-public class HideMyConstructorPlease {
+public class PleaseHideMyConstructor {
 
   public static void stringsAreImmutable(){
     // Excessive garbage allocation, String are immutable
