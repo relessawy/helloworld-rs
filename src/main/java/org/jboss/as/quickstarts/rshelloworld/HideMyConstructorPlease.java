@@ -20,13 +20,13 @@ public class HideMyConstructorPlease {
   
   
   public static void WhyIgnoringExceptions(){
-    String iAmNull;
-    int dontIgnoreMe = 1
+    String nullString;
+    int dontIgnoreMe = 1;
     try {
       if(dontIgnoreMe==2)
-         System.out.println(dontIgnoreMe);
+         System.out.println(nullString);
       else 
-        System.out.println(dontIgnoreMe.substring(0, 6));
+        System.out.println(nullString.substring(0, 6));
     } catch (NullPointerException e) {
       // Maybe, invisible man. Who cares, anyway?
     }  
