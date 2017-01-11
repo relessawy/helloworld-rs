@@ -16,7 +16,9 @@ public class PleaseHideMyConstructor {
     List listOfNumbers = new ArrayList();
     listOfNumbers.add(10);
     listOfNumbers.add("Twenty");
-    listOfNumbers.forEach(n -> System.out.println((int) n * 2)); 
+    //listOfNumbers.forEach(n -> System.out.println((int) n * 2)); 
+    System.out.println(((int)listOfNumbers.get(0)) * 2);
+    System.out.println(((int)listOfNumbers.get(1)) * 2);
   }
   
   
