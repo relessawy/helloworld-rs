@@ -12,7 +12,7 @@ public class PleaseHideMyConstructor {
   }
   
   public static void WhyIgnoringExceptions(){
-    String nullString;
+    String nullString=null;
     int dontIgnoreMe = 2;
     try {
       if(dontIgnoreMe==2)
