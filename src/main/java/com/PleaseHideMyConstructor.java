@@ -10,17 +10,6 @@ public class PleaseHideMyConstructor {
       }
     System.out.println(oneMillionHello.substring(0, 6));
   }
-
-  public static void whyNotUsingGenerics(){
-    // Using Raw Type Instead of Generics
-    List listOfNumbers = new ArrayList();
-    listOfNumbers.add(10);
-    listOfNumbers.add("Twenty");
-    //listOfNumbers.forEach(n -> System.out.println((int) n * 2)); 
-    //System.out.println(((int)listOfNumbers.get(0)) * 2);
-    //System.out.println(((int)listOfNumbers.get(1)) * 2);
-  }
-  
   
   public static void WhyIgnoringExceptions(){
     String nullString;
